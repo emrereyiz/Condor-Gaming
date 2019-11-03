@@ -75,7 +75,7 @@ header{
 
 				&.sub-menu{
 					a{
-						background-image:url('/_assets/img/menu-arrow.png');
+						background-image:url('../img/menu-arrow.png');
 						background-repeat:no-repeat;
 						background-position:center right 15px;
 							@include mobile{
@@ -206,8 +206,10 @@ header{
 		input{
 			&:checked{
 				position:fixed;
+				right:30px;
 				&+span{
 					position:fixed;
+					right:30px;
 					sup{
 						opacity: 0;
 					}
@@ -237,7 +239,7 @@ header{
 			width: 25px;
 			height: 15px;
 			position: absolute;
-			right: 30px;
+			right: 15px;
 			top: 25px;
 			z-index: 99;
 			opacity: 1;

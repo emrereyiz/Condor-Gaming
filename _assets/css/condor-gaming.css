@@ -65,7 +65,7 @@ header {
           text-align: center;
           font-size: 50px; } }
       header nav ul li.sub-menu a {
-        background-image: url("/_assets/img/menu-arrow.png");
+        background-image: url("../img/menu-arrow.png");
         background-repeat: no-repeat;
         background-position: center right 15px; }
         @media only screen and (min-width: 320px) and (max-width: 767px) {
@@ -166,9 +166,11 @@ header {
                 header nav ul li ul li a::after {
                   display: none; } }
   header nav input:checked {
-    position: fixed; }
+    position: fixed;
+    right: 30px; }
     header nav input:checked + span {
-      position: fixed; }
+      position: fixed;
+      right: 30px; }
       header nav input:checked + span sup {
         opacity: 0; }
       header nav input:checked + span::before {
@@ -196,7 +198,7 @@ header {
     width: 25px;
     height: 15px;
     position: absolute;
-    right: 30px;
+    right: 15px;
     top: 25px;
     z-index: 99;
     opacity: 1;
