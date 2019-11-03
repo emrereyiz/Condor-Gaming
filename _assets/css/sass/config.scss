@@ -1,0 +1,46 @@
+// breakpoints
+@mixin mobile {
+   @media only screen and (min-width : 320px) and (max-width : 767px) {
+       @content;
+   }
+}
+
+// color
+$c-white:#fff;
+$c-layout1: #022929;
+$c-layout2:#066666;
+$c-layout3:#31cccc;
+$c-layout4: #169292;
+$c-layout5: #83b3b3;
+$c-layout6: #1e3a3a;
+$c-layout7: #848484;
+$c-layout8: rgba(6, 102, 102, 0.7490196078431373);
+
+
+// mixin
+@mixin transition($param) {
+    -webkit-transition: $param;
+    -moz-transition: $param;
+    -o-transition: $param;
+    transition: $param;
+}
+
+@mixin border-radius($param){
+	border-radius:$param;
+	-moz-border-radius:$param;
+	-webkit-border-radius:$param;
+}
+
+
+
+@mixin rotate($param){
+    -ms-transform: rotate($param); /* IE 9 */
+    -webkit-transform: rotate($param); /* Safari */
+    transform: rotate($param);
+}
+
+
+
+.animate{
+	opacity: 0;
+}
