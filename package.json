@@ -17,7 +17,7 @@
     "grunt-contrib-watch": "^1.1.0",
     "grunt-sass": "^3.1.0",
     "jit-grunt": "^0.10.0",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "ruby": "^0.6.1",
     "sass": "^1.23.3"
   },
